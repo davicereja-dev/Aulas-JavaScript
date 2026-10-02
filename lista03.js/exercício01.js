@@ -10,7 +10,16 @@ const elementosFake = [
   { id: 9, tagName: 'LI', style: { color: 'black', display: 'list-item' }, classList: ['item-lista', 'pending'] },
   { id: 10, tagName: 'FOOTER', style: { color: 'white', display: 'flex' }, classList: ['footer-area'] }
 ];
-for(const i of elementosFake){
 
-
+for(const element of elementosFake){
+ element.style.backgroundColor = '#FFFFFF'
 }
+console.log(elementosFake)
+
+
+
+
+
+/*Atividade 1: 
+Percorra o array usando for...of. Para cada objeto, adicione uma nova propriedade dentro 
+de style chamada backgroundColor com o valor '#FFFFFF'. No final, exiba o array modificado.*/
